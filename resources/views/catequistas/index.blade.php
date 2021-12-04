@@ -38,11 +38,11 @@
                                     <td>{{ $catequista->parroquia }}</td>
                                     <td>{{ $catequista->grupo }}</td>
                                     <td class="text-center">
-                                        
-                                            <a href="/catequistas/show/{{$catequista->id}}" class="btn btn-sm btn-info">MOSTRAR</a>
-                                            <a href="/catequistas/edit/{{$catequista->id}}" class="btn btn-sm btn-primary">EDITAR</a>
-                                            <a href="/catequistas/destroy/{{$catequista->id}}" class="btn btn-sm btn-primary">ELIMINAR</a>
-                                            <!-- <button type="submit" class="btn btn-sm btn-danger">ELIMINAR</button> -->
+
+                                        <a href="/catequistas/show/{{$catequista->id}}" class="btn btn-sm btn-info">MOSTRAR</a>
+                                        <a href="/catequistas/edit/{{$catequista->id}}" class="btn btn-sm btn-warning">EDITAR</a>
+                                        <a href="/catequistas/destroy/{{$catequista->id}}" class="btn btn-sm btn-danger">ELIMINAR</a>
+                                        <!-- <button type="submit" class="btn btn-sm btn-danger">ELIMINAR</button> -->
 
                                     </td>
                                 </tr>
